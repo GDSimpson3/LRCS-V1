@@ -46,8 +46,9 @@ def _ExtractTerms(ExtractionStr: str) -> list[str]:
     # Loop thru ClearRawStr
 
     Term = "" # Will contain "7X^5"
-    SKIPFIRSTChar = False
+
     ExtractionStrL = ExtractionStr
+
     if ExtractionStrL[0] != '-':
         ExtractionStrL = '+'+ExtractionStrL
 
@@ -55,16 +56,17 @@ def _ExtractTerms(ExtractionStr: str) -> list[str]:
         # LOG(character)
         if index != 0:
             if character == SEPARATORS[0] or character == SEPARATORS[1]:
-                Terms.append(Term)
+                Terms.append(Term.replace('+','')) # Remove Plus signs
+
                 Term = ''
         Term = Term + character
         if index == len(ExtractionStrL) -1 :
-            Terms.append(Term)
+            Terms.append(Term.replace('+',''))
 
 
-    LOG(Terms)
+    # LOG(Terms)
     
-    return 
+    return Terms
 
 def _DecodeTerms(Terms: list[str]) -> list[list[str]]:
 
@@ -113,11 +115,11 @@ def InputFormatter(RawStr: str) -> list[list[str]]:
 
     LOG(ExtractedTerms)
 
-    # DecodedArray = _DecodeTerms(ExtractedTerms)
+    DecodedArray = _DecodeTerms(ExtractedTerms)
 
-    # LOG(DecodedArray)
+    LOG(DecodedArray)
 
-    return
+    return DecodedArray
 
 
 
