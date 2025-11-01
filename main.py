@@ -9,4 +9,4 @@ WelcomeMessage()
 Polynomial = InputProcessorMain("Please Enter the Polynomial: ")
 
 LOG(Polynomial)
-# LOG(Differentiate(Polynomial))
+LOG(Differentiate(Polynomial))

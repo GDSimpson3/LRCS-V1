@@ -113,11 +113,11 @@ def InputFormatter(RawStr: str) -> list[list[str]]:
 
     ExtractedTerms = _ExtractTerms(ClearRawStr)
 
-    LOG(ExtractedTerms)
+    # LOG(ExtractedTerms)
 
     DecodedArray = _DecodeTerms(ExtractedTerms)
 
-    LOG(DecodedArray)
+    # LOG(DecodedArray)
 
     return DecodedArray
 
