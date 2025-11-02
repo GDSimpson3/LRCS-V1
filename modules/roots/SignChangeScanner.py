@@ -1,27 +1,52 @@
 from typing import Union
 from modules.computeFX.FX import FX
+from modules.error.error import BadInput
+from modules.logger.logger import LOG
+
+import numpy as np
 
 
-def SignChangeScanner(StartingPoint:int, EndFlag:int, PolyNomial: list[list[str]], DPAccuracy: int) -> Union[list[float], bool]:
+def SignChangeScanner(StartingPoint:float, EndFlag:float, PolyNomial: list[list[str]], DPAccuracy: int) -> Union[list[float], bool]:
+    # TRUE = POSITIVE
+    # FALSE = NEGATIVE
 
-    base = 2
-    exponent = 0
-    interval = base ** exponent # Keep changing intervals in powers of 2, start with 2^0
+    Start = StartingPoint
+    End = EndFlag
 
-    StartingPointVar = StartingPoint
-    EndingPointVar = EndFlag
-    # TRUE == POSITIVE, FALSE == NEGATIVE
-    StartingSign = FX(PolyNomial,StartingPoint) > 0 # Initialising, if yes then true, else false
-    Direction = 1
+    StartSign = FX(PolyNomial,Start) > 0
+    EndSign = FX(PolyNomial,End) > 0
 
+    IterationCount = 0
+
+    Interval = 2 ** (-1 * IterationCount)
+    Direction = (-1) ** IterationCount
+
+    
+
+    if StartSign == EndSign:
+        BadInput("Both Starting and end values have the same Sign")
+        return
+    
+    # Root = 
     while True:
-        for PotentialRoot in range(StartingPointVar,EndingPointVar, (interval * Direction)): # Go from Start to End in interval, interval is change for direction, - going back, + goin front
-            # FX(PolyNomial,Position) 
-            PotentialRootSign = FX(PolyNomial,PotentialRoot) > 0
+        # for Root in range(Start,End,Interval * Direction):
+        for Root in np.arange(Start, End, Interval * Direction):
+            LOG(f'((((())))) {Root}')
+            RootSign = FX(PolyNomial,Root) > 0
 
-            if (PotentialRootSign != StartingSign): # Initialising value compared against Current value
+            if (RootSign != StartSign):
+                LOG(f'{RootSign != StartSign} ==== {Root}')
+
+                End = Start
+                Start = Root
+                IterationCount += 1
+
+            if FX(PolyNomial,Root) == 0:
+                LOG(f'___ {Root}')
+                return False
+                # break
+   
 
 
 
 
-    return
