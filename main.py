@@ -15,4 +15,4 @@ Polynomial = InputProcessorMain("Please Enter the Polynomial: ")
 # [['2', 2], ['-5', 1], ['2', 0]]
 
 
-SignChangeScanner(0,5,[['1','1'],['-3.4343','0']],3)
+SignChangeScanner(0,10,[['1','1'],['-3.4343','0']],3)
