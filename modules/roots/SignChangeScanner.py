@@ -24,7 +24,7 @@ def SignChangeScanner(StartingPoint:float, EndFlag:float, PolyNomial: list[list[
         def conditionFront(): return Root < End
         def conditionBack(): return Root > End
         def SignCheckFront(): return RootSign() != StartSign()
-        def SignCheckBack(): return RootSign() != EndSign()
+        def SignCheckBack(): return RootSign() != StartSign() # If either Equal to end, or Not equal to START OF ITERATION RANGE!!!!!!!
         # condition = True # Default Value
 
 
@@ -82,6 +82,7 @@ def SignChangeScanner(StartingPoint:float, EndFlag:float, PolyNomial: list[list[
 
         if FX(PolyNomial,Root) == 0:
             LOG('YAYAYAYAY')
+            break
 
 
     return

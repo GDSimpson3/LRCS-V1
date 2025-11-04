@@ -1,0 +1,480 @@
+
+DEBUG----- 0 --OUT-- 1 -- COUNT 0 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104bd6ca0>
+DEBUG----- SIGN CHECK False ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62020>
+DEBUG----- FXXX ---- 1 --- -2.4343 --- INTERVAL 1
+DEBUG----- START ---- 0 --- 10
+DEBUG----- 1 --- 1  ---- True
+DEBUG----- OUT START ---- 0 --- 10
+DEBUG----- SIGN CHECK False ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62020>
+DEBUG----- FXXX ---- 2 --- -1.4343 --- INTERVAL 1
+DEBUG----- START ---- 0 --- 10
+DEBUG----- 2 --- 1  ---- True
+DEBUG----- OUT START ---- 0 --- 10
+DEBUG----- SIGN CHECK False ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62020>
+DEBUG----- FXXX ---- 3 --- -0.4342999999999999 --- INTERVAL 1
+DEBUG----- START ---- 0 --- 10
+DEBUG----- 3 --- 1  ---- True
+DEBUG----- OUT START ---- 0 --- 10
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62020>
+DEBUG----- FXXX ---- 4 --- 0.5657000000000001 --- INTERVAL 1
+DEBUG----- START ---- 0 --- 10
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62020> --- S 4 --- E 0 --- 4
+DEBUG----- 4 --OUT-- -1 -- COUNT 1 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK False ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c625c0>
+DEBUG----- FXXX ---- 3.5 --- 0.06570000000000009 --- INTERVAL -0.5
+DEBUG----- START ---- 4 --- 0
+DEBUG----- 3.5 --- -1  ---- True
+DEBUG----- OUT START ---- 4 --- 0
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c625c0>
+DEBUG----- FXXX ---- 3.0 --- -0.4342999999999999 --- INTERVAL -0.5
+DEBUG----- START ---- 4 --- 0
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c625c0> --- S 3.0 --- E 4 --- 3.0
+DEBUG----- 3.0 --OUT-- 1 -- COUNT 2 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104c623e0>
+DEBUG----- SIGN CHECK False ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62020>
+DEBUG----- FXXX ---- 3.25 --- -0.1842999999999999 --- INTERVAL 0.25
+DEBUG----- START ---- 3.0 --- 4
+DEBUG----- 3.25 --- 1  ---- True
+DEBUG----- OUT START ---- 3.0 --- 4
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62020>
+DEBUG----- FXXX ---- 3.5 --- 0.06570000000000009 --- INTERVAL 0.25
+DEBUG----- START ---- 3.0 --- 4
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62020> --- S 3.5 --- E 3.0 --- 3.5
+DEBUG----- 3.5 --OUT-- -1 -- COUNT 3 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62200>
+DEBUG----- FXXX ---- 3.375 --- -0.05929999999999991 --- INTERVAL -0.125
+DEBUG----- START ---- 3.5 --- 3.0
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62200> --- S 3.375 --- E 3.5 --- 3.375
+DEBUG----- 3.375 --OUT-- 1 -- COUNT 4 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104c62480>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62020>
+DEBUG----- FXXX ---- 3.4375 --- 0.0032000000000000917 --- INTERVAL 0.0625
+DEBUG----- START ---- 3.375 --- 3.5
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62020> --- S 3.4375 --- E 3.375 --- 3.4375
+DEBUG----- 3.4375 --OUT-- -1 -- COUNT 5 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c623e0>
+DEBUG----- FXXX ---- 3.40625 --- -0.02804999999999991 --- INTERVAL -0.03125
+DEBUG----- START ---- 3.4375 --- 3.375
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c623e0> --- S 3.40625 --- E 3.4375 --- 3.40625
+DEBUG----- 3.40625 --OUT-- 1 -- COUNT 6 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104c62340>
+DEBUG----- SIGN CHECK False ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62480>
+DEBUG----- FXXX ---- 3.421875 --- -0.012424999999999908 --- INTERVAL 0.015625
+DEBUG----- START ---- 3.40625 --- 3.4375
+DEBUG----- 3.421875 --- 1  ---- True
+DEBUG----- OUT START ---- 3.40625 --- 3.4375
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62480>
+DEBUG----- FXXX ---- 3.4375 --- 0.0032000000000000917 --- INTERVAL 0.015625
+DEBUG----- START ---- 3.40625 --- 3.4375
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62480> --- S 3.4375 --- E 3.40625 --- 3.4375
+DEBUG----- 3.4375 --OUT-- -1 -- COUNT 7 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c622a0>
+DEBUG----- FXXX ---- 3.4296875 --- -0.004612499999999908 --- INTERVAL -0.0078125
+DEBUG----- START ---- 3.4375 --- 3.40625
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c622a0> --- S 3.4296875 --- E 3.4375 --- 3.4296875
+DEBUG----- 3.4296875 --OUT-- 1 -- COUNT 8 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104c62020>
+DEBUG----- SIGN CHECK False ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62480>
+DEBUG----- FXXX ---- 3.43359375 --- -0.0007062499999999083 --- INTERVAL 0.00390625
+DEBUG----- START ---- 3.4296875 --- 3.4375
+DEBUG----- 3.43359375 --- 1  ---- True
+DEBUG----- OUT START ---- 3.4296875 --- 3.4375
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62480>
+DEBUG----- FXXX ---- 3.4375 --- 0.0032000000000000917 --- INTERVAL 0.00390625
+DEBUG----- START ---- 3.4296875 --- 3.4375
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62480> --- S 3.4375 --- E 3.4296875 --- 3.4375
+DEBUG----- 3.4375 --OUT-- -1 -- COUNT 9 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK False ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62340>
+DEBUG----- FXXX ---- 3.435546875 --- 0.0012468750000000917 --- INTERVAL -0.001953125
+DEBUG----- START ---- 3.4375 --- 3.4296875
+DEBUG----- 3.435546875 --- -1  ---- True
+DEBUG----- OUT START ---- 3.4375 --- 3.4296875
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62340>
+DEBUG----- FXXX ---- 3.43359375 --- -0.0007062499999999083 --- INTERVAL -0.001953125
+DEBUG----- START ---- 3.4375 --- 3.4296875
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62340> --- S 3.43359375 --- E 3.4375 --- 3.43359375
+DEBUG----- 3.43359375 --OUT-- 1 -- COUNT 10 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104c622a0>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62020>
+DEBUG----- FXXX ---- 3.4345703125 --- 0.00027031250000009166 --- INTERVAL 0.0009765625
+DEBUG----- START ---- 3.43359375 --- 3.4375
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62020> --- S 3.4345703125 --- E 3.43359375 --- 3.4345703125
+DEBUG----- 3.4345703125 --OUT-- -1 -- COUNT 11 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c625c0>
+DEBUG----- FXXX ---- 3.43408203125 --- -0.00021796874999990834 --- INTERVAL -0.00048828125
+DEBUG----- START ---- 3.4345703125 --- 3.43359375
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c625c0> --- S 3.43408203125 --- E 3.4345703125 --- 3.43408203125
+DEBUG----- 3.43408203125 --OUT-- 1 -- COUNT 12 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104c62480>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c622a0>
+DEBUG----- FXXX ---- 3.434326171875 --- 2.617187500009166e-05 --- INTERVAL 0.000244140625
+DEBUG----- START ---- 3.43408203125 --- 3.4345703125
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c622a0> --- S 3.434326171875 --- E 3.43408203125 --- 3.434326171875
+DEBUG----- 3.434326171875 --OUT-- -1 -- COUNT 13 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62200>
+DEBUG----- FXXX ---- 3.4342041015625 --- -9.589843749990834e-05 --- INTERVAL -0.0001220703125
+DEBUG----- START ---- 3.434326171875 --- 3.43408203125
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62200> --- S 3.4342041015625 --- E 3.434326171875 --- 3.4342041015625
+DEBUG----- 3.4342041015625 --OUT-- 1 -- COUNT 14 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104c62340>
+DEBUG----- SIGN CHECK False ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c622a0>
+DEBUG----- FXXX ---- 3.43426513671875 --- -3.486328124990834e-05 --- INTERVAL 6.103515625e-05
+DEBUG----- START ---- 3.4342041015625 --- 3.434326171875
+DEBUG----- 3.43426513671875 --- 1  ---- True
+DEBUG----- OUT START ---- 3.4342041015625 --- 3.434326171875
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c622a0>
+DEBUG----- FXXX ---- 3.434326171875 --- 2.617187500009166e-05 --- INTERVAL 6.103515625e-05
+DEBUG----- START ---- 3.4342041015625 --- 3.434326171875
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c622a0> --- S 3.434326171875 --- E 3.4342041015625 --- 3.434326171875
+DEBUG----- 3.434326171875 --OUT-- -1 -- COUNT 15 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62480>
+DEBUG----- FXXX ---- 3.434295654296875 --- -4.34570312490834e-06 --- INTERVAL -3.0517578125e-05
+DEBUG----- START ---- 3.434326171875 --- 3.4342041015625
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62480> --- S 3.434295654296875 --- E 3.434326171875 --- 3.434295654296875
+DEBUG----- 3.434295654296875 --OUT-- 1 -- COUNT 16 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104bd6de0>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62340>
+DEBUG----- FXXX ---- 3.4343109130859375 --- 1.091308593759166e-05 --- INTERVAL 1.52587890625e-05
+DEBUG----- START ---- 3.434295654296875 --- 3.434326171875
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62340> --- S 3.4343109130859375 --- E 3.434295654296875 --- 3.4343109130859375
+DEBUG----- 3.4343109130859375 --OUT-- -1 -- COUNT 17 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK False ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c623e0>
+DEBUG----- FXXX ---- 3.4343032836914062 --- 3.28369140634166e-06 --- INTERVAL -7.62939453125e-06
+DEBUG----- START ---- 3.4343109130859375 --- 3.434295654296875
+DEBUG----- 3.4343032836914062 --- -1  ---- True
+DEBUG----- OUT START ---- 3.4343109130859375 --- 3.434295654296875
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c623e0>
+DEBUG----- FXXX ---- 3.434295654296875 --- -4.34570312490834e-06 --- INTERVAL -7.62939453125e-06
+DEBUG----- START ---- 3.4343109130859375 --- 3.434295654296875
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c623e0> --- S 3.434295654296875 --- E 3.4343109130859375 --- 3.434295654296875
+DEBUG----- 3.434295654296875 --OUT-- 1 -- COUNT 18 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104c622a0>
+DEBUG----- SIGN CHECK False ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62480>
+DEBUG----- FXXX ---- 3.4342994689941406 --- -5.3100585928334e-07 --- INTERVAL 3.814697265625e-06
+DEBUG----- START ---- 3.434295654296875 --- 3.4343109130859375
+DEBUG----- 3.4342994689941406 --- 1  ---- True
+DEBUG----- OUT START ---- 3.434295654296875 --- 3.4343109130859375
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62480>
+DEBUG----- FXXX ---- 3.4343032836914062 --- 3.28369140634166e-06 --- INTERVAL 3.814697265625e-06
+DEBUG----- START ---- 3.434295654296875 --- 3.4343109130859375
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62480> --- S 3.4343032836914062 --- E 3.434295654296875 --- 3.4343032836914062
+DEBUG----- 3.4343032836914062 --OUT-- -1 -- COUNT 19 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK False ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62340>
+DEBUG----- FXXX ---- 3.4343013763427734 --- 1.37634277352916e-06 --- INTERVAL -1.9073486328125e-06
+DEBUG----- START ---- 3.4343032836914062 --- 3.434295654296875
+DEBUG----- 3.4343013763427734 --- -1  ---- True
+DEBUG----- OUT START ---- 3.4343032836914062 --- 3.434295654296875
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62340>
+DEBUG----- FXXX ---- 3.4342994689941406 --- -5.3100585928334e-07 --- INTERVAL -1.9073486328125e-06
+DEBUG----- START ---- 3.4343032836914062 --- 3.434295654296875
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62340> --- S 3.4342994689941406 --- E 3.4343032836914062 --- 3.4342994689941406
+DEBUG----- 3.4342994689941406 --OUT-- 1 -- COUNT 20 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104c623e0>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c622a0>
+DEBUG----- FXXX ---- 3.434300422668457 --- 4.2266845712291e-07 --- INTERVAL 9.5367431640625e-07
+DEBUG----- START ---- 3.4342994689941406 --- 3.4343032836914062
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c622a0> --- S 3.434300422668457 --- E 3.4342994689941406 --- 3.434300422668457
+DEBUG----- 3.434300422668457 --OUT-- -1 -- COUNT 21 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c625c0>
+DEBUG----- FXXX ---- 3.434299945831299 --- -5.416870108021499e-08 --- INTERVAL -4.76837158203125e-07
+DEBUG----- START ---- 3.434300422668457 --- 3.4342994689941406
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c625c0> --- S 3.434299945831299 --- E 3.434300422668457 --- 3.434299945831299
+DEBUG----- 3.434299945831299 --OUT-- 1 -- COUNT 22 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104c62480>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c623e0>
+DEBUG----- FXXX ---- 3.434300184249878 --- 1.842498780213475e-07 --- INTERVAL 2.384185791015625e-07
+DEBUG----- START ---- 3.434299945831299 --- 3.434300422668457
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c623e0> --- S 3.434300184249878 --- E 3.434299945831299 --- 3.434300184249878
+DEBUG----- 3.434300184249878 --OUT-- -1 -- COUNT 23 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK False ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62200>
+DEBUG----- FXXX ---- 3.4343000650405884 --- 6.504058847056626e-08 --- INTERVAL -1.1920928955078125e-07
+DEBUG----- START ---- 3.434300184249878 --- 3.434299945831299
+DEBUG----- 3.4343000650405884 --- -1  ---- True
+DEBUG----- OUT START ---- 3.434300184249878 --- 3.434299945831299
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62200>
+DEBUG----- FXXX ---- 3.434299945831299 --- -5.416870108021499e-08 --- INTERVAL -1.1920928955078125e-07
+DEBUG----- START ---- 3.434300184249878 --- 3.434299945831299
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62200> --- S 3.434299945831299 --- E 3.434300184249878 --- 3.434299945831299
+DEBUG----- 3.434299945831299 --OUT-- 1 -- COUNT 24 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104c622a0>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c623e0>
+DEBUG----- FXXX ---- 3.4343000054359436 --- 5.435943695175638e-09 --- INTERVAL 5.960464477539063e-08
+DEBUG----- START ---- 3.434299945831299 --- 3.434300184249878
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c623e0> --- S 3.4343000054359436 --- E 3.434299945831299 --- 3.4343000054359436
+DEBUG----- 3.4343000054359436 --OUT-- -1 -- COUNT 25 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62480>
+DEBUG----- FXXX ---- 3.434299975633621 --- -2.4366378692519675e-08 --- INTERVAL -2.9802322387695312e-08
+DEBUG----- START ---- 3.4343000054359436 --- 3.434299945831299
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62480> --- S 3.434299975633621 --- E 3.4343000054359436 --- 3.434299975633621
+DEBUG----- 3.434299975633621 --OUT-- 1 -- COUNT 26 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104bd6de0>
+DEBUG----- SIGN CHECK False ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c623e0>
+DEBUG----- FXXX ---- 3.4342999905347824 --- -9.465217498672018e-09 --- INTERVAL 1.4901161193847656e-08
+DEBUG----- START ---- 3.434299975633621 --- 3.4343000054359436
+DEBUG----- 3.4342999905347824 --- 1  ---- True
+DEBUG----- OUT START ---- 3.434299975633621 --- 3.4343000054359436
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c623e0>
+DEBUG----- FXXX ---- 3.4343000054359436 --- 5.435943695175638e-09 --- INTERVAL 1.4901161193847656e-08
+DEBUG----- START ---- 3.434299975633621 --- 3.4343000054359436
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c623e0> --- S 3.4343000054359436 --- E 3.434299975633621 --- 3.4343000054359436
+DEBUG----- 3.4343000054359436 --OUT-- -1 -- COUNT 27 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c622a0>
+DEBUG----- FXXX ---- 3.434299997985363 --- -2.0146369017481902e-09 --- INTERVAL -7.450580596923828e-09
+DEBUG----- START ---- 3.4343000054359436 --- 3.434299975633621
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c622a0> --- S 3.434299997985363 --- E 3.4343000054359436 --- 3.434299997985363
+DEBUG----- 3.434299997985363 --OUT-- 1 -- COUNT 28 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104bd6ca0>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c623e0>
+DEBUG----- FXXX ---- 3.4343000017106533 --- 1.7106533967137239e-09 --- INTERVAL 3.725290298461914e-09
+DEBUG----- START ---- 3.434299997985363 --- 3.4343000054359436
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c623e0> --- S 3.4343000017106533 --- E 3.434299997985363 --- 3.4343000017106533
+DEBUG----- 3.4343000017106533 --OUT-- -1 -- COUNT 29 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62020>
+DEBUG----- FXXX ---- 3.434299999848008 --- -1.5199175251723318e-10 --- INTERVAL -1.862645149230957e-09
+DEBUG----- START ---- 3.4343000017106533 --- 3.434299997985363
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62020> --- S 3.434299999848008 --- E 3.4343000017106533 --- 3.434299999848008
+DEBUG----- 3.434299999848008 --OUT-- 1 -- COUNT 30 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104c62340>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c623e0>
+DEBUG----- FXXX ---- 3.4343000007793307 --- 7.793308220982453e-10 --- INTERVAL 9.313225746154785e-10
+DEBUG----- START ---- 3.434299999848008 --- 3.4343000017106533
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c623e0> --- S 3.4343000007793307 --- E 3.434299999848008 --- 3.4343000007793307
+DEBUG----- 3.4343000007793307 --OUT-- -1 -- COUNT 31 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK False ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c625c0>
+DEBUG----- FXXX ---- 3.4343000003136694 --- 3.136695347905061e-10 --- INTERVAL -4.656612873077393e-10
+DEBUG----- START ---- 3.4343000007793307 --- 3.434299999848008
+DEBUG----- 3.4343000003136694 --- -1  ---- True
+DEBUG----- OUT START ---- 3.4343000007793307 --- 3.434299999848008
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c625c0>
+DEBUG----- FXXX ---- 3.434299999848008 --- -1.5199175251723318e-10 --- INTERVAL -4.656612873077393e-10
+DEBUG----- START ---- 3.4343000007793307 --- 3.434299999848008
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c625c0> --- S 3.434299999848008 --- E 3.4343000007793307 --- 3.434299999848008
+DEBUG----- 3.434299999848008 --OUT-- 1 -- COUNT 32 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104bd6ca0>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62340>
+DEBUG----- FXXX ---- 3.434300000080839 --- 8.083889113663645e-11 --- INTERVAL 2.3283064365386963e-10
+DEBUG----- START ---- 3.434299999848008 --- 3.4343000007793307
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62340> --- S 3.434300000080839 --- E 3.434299999848008 --- 3.434300000080839
+DEBUG----- 3.434300000080839 --OUT-- -1 -- COUNT 33 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62200>
+DEBUG----- FXXX ---- 3.4342999999644235 --- -3.5576430690298366e-11 --- INTERVAL -1.1641532182693481e-10
+DEBUG----- START ---- 3.434300000080839 --- 3.434299999848008
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62200> --- S 3.4342999999644235 --- E 3.434300000080839 --- 3.4342999999644235
+DEBUG----- 3.4342999999644235 --OUT-- 1 -- COUNT 34 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104c623e0>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62340>
+DEBUG----- FXXX ---- 3.434300000022631 --- 2.263123022316904e-11 --- INTERVAL 5.820766091346741e-11
+DEBUG----- START ---- 3.4342999999644235 --- 3.434300000080839
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62340> --- S 3.434300000022631 --- E 3.4342999999644235 --- 3.434300000022631
+DEBUG----- 3.434300000022631 --OUT-- -1 -- COUNT 35 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62480>
+DEBUG----- FXXX ---- 3.4342999999935273 --- -6.472600233564663e-12 --- INTERVAL -2.9103830456733704e-11
+DEBUG----- START ---- 3.434300000022631 --- 3.4342999999644235
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62480> --- S 3.4342999999935273 --- E 3.434300000022631 --- 3.4342999999935273
+DEBUG----- 3.4342999999935273 --OUT-- 1 -- COUNT 36 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104c625c0>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62340>
+DEBUG----- FXXX ---- 3.4343000000080792 --- 8.079314994802189e-12 --- INTERVAL 1.4551915228366852e-11
+DEBUG----- START ---- 3.4342999999935273 --- 3.434300000022631
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62340> --- S 3.4343000000080792 --- E 3.4342999999935273 --- 3.4343000000080792
+DEBUG----- 3.4343000000080792 --OUT-- -1 -- COUNT 37 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK False ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c623e0>
+DEBUG----- FXXX ---- 3.4343000000008033 --- 8.033573806187633e-13 --- INTERVAL -7.275957614183426e-12
+DEBUG----- START ---- 3.4343000000080792 --- 3.4342999999935273
+DEBUG----- 3.4343000000008033 --- -1  ---- True
+DEBUG----- OUT START ---- 3.4343000000080792 --- 3.4342999999935273
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c623e0>
+DEBUG----- FXXX ---- 3.4342999999935273 --- -6.472600233564663e-12 --- INTERVAL -7.275957614183426e-12
+DEBUG----- START ---- 3.4343000000080792 --- 3.4342999999935273
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c623e0> --- S 3.4342999999935273 --- E 3.4343000000080792 --- 3.4342999999935273
+DEBUG----- 3.4342999999935273 --OUT-- 1 -- COUNT 38 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104bd6de0>
+DEBUG----- SIGN CHECK False ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c625c0>
+DEBUG----- FXXX ---- 3.4342999999971653 --- -2.8346214264729497e-12 --- INTERVAL 3.637978807091713e-12
+DEBUG----- START ---- 3.4342999999935273 --- 3.4343000000080792
+DEBUG----- 3.4342999999971653 --- 1  ---- True
+DEBUG----- OUT START ---- 3.4342999999935273 --- 3.4343000000080792
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c625c0>
+DEBUG----- FXXX ---- 3.4343000000008033 --- 8.033573806187633e-13 --- INTERVAL 3.637978807091713e-12
+DEBUG----- START ---- 3.4342999999935273 --- 3.4343000000080792
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c625c0> --- S 3.4343000000008033 --- E 3.4342999999935273 --- 3.4343000000008033
+DEBUG----- 3.4343000000008033 --OUT-- -1 -- COUNT 39 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62020>
+DEBUG----- FXXX ---- 3.4342999999989843 --- -1.0156320229270932e-12 --- INTERVAL -1.8189894035458565e-12
+DEBUG----- START ---- 3.4343000000008033 --- 3.4342999999935273
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62020> --- S 3.4342999999989843 --- E 3.4343000000008033 --- 3.4342999999989843
+DEBUG----- 3.4342999999989843 --OUT-- 1 -- COUNT 40 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104c62200>
+DEBUG----- SIGN CHECK False ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c625c0>
+DEBUG----- FXXX ---- 3.4342999999998938 --- -1.0613732115416497e-13 --- INTERVAL 9.094947017729282e-13
+DEBUG----- START ---- 3.4342999999989843 --- 3.4343000000008033
+DEBUG----- 3.4342999999998938 --- 1  ---- True
+DEBUG----- OUT START ---- 3.4342999999989843 --- 3.4343000000008033
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c625c0>
+DEBUG----- FXXX ---- 3.4343000000008033 --- 8.033573806187633e-13 --- INTERVAL 9.094947017729282e-13
+DEBUG----- START ---- 3.4342999999989843 --- 3.4343000000008033
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c625c0> --- S 3.4343000000008033 --- E 3.4342999999989843 --- 3.4343000000008033
+DEBUG----- 3.4343000000008033 --OUT-- -1 -- COUNT 41 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK False ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c622a0>
+DEBUG----- FXXX ---- 3.4343000000003485 --- 3.4861002973229915e-13 --- INTERVAL -4.547473508864641e-13
+DEBUG----- START ---- 3.4343000000008033 --- 3.4342999999989843
+DEBUG----- 3.4343000000003485 --- -1  ---- True
+DEBUG----- OUT START ---- 3.4343000000008033 --- 3.4342999999989843
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c622a0>
+DEBUG----- FXXX ---- 3.4342999999998938 --- -1.0613732115416497e-13 --- INTERVAL -4.547473508864641e-13
+DEBUG----- START ---- 3.4343000000008033 --- 3.4342999999989843
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c622a0> --- S 3.4342999999998938 --- E 3.4343000000008033 --- 3.4342999999998938
+DEBUG----- 3.4342999999998938 --OUT-- 1 -- COUNT 42 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104c62020>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c625c0>
+DEBUG----- FXXX ---- 3.434300000000121 --- 1.212363542890671e-13 --- INTERVAL 2.2737367544323206e-13
+DEBUG----- START ---- 3.4342999999998938 --- 3.4343000000008033
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c625c0> --- S 3.434300000000121 --- E 3.4342999999998938 --- 3.434300000000121
+DEBUG----- 3.434300000000121 --OUT-- -1 -- COUNT 43 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK False ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62200>
+DEBUG----- FXXX ---- 3.4343000000000075 --- 7.549516567451064e-15 --- INTERVAL -1.1368683772161603e-13
+DEBUG----- START ---- 3.434300000000121 --- 3.4342999999998938
+DEBUG----- 3.4343000000000075 --- -1  ---- True
+DEBUG----- OUT START ---- 3.434300000000121 --- 3.4342999999998938
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62200>
+DEBUG----- FXXX ---- 3.4342999999998938 --- -1.0613732115416497e-13 --- INTERVAL -1.1368683772161603e-13
+DEBUG----- START ---- 3.434300000000121 --- 3.4342999999998938
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62200> --- S 3.4342999999998938 --- E 3.434300000000121 --- 3.4342999999998938
+DEBUG----- 3.4342999999998938 --OUT-- 1 -- COUNT 44 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104bd6de0>
+DEBUG----- SIGN CHECK False ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62020>
+DEBUG----- FXXX ---- 3.4342999999999506 --- -4.929390229335695e-14 --- INTERVAL 5.684341886080802e-14
+DEBUG----- START ---- 3.4342999999998938 --- 3.434300000000121
+DEBUG----- 3.4342999999999506 --- 1  ---- True
+DEBUG----- OUT START ---- 3.4342999999998938 --- 3.434300000000121
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62020>
+DEBUG----- FXXX ---- 3.4343000000000075 --- 7.549516567451064e-15 --- INTERVAL 5.684341886080802e-14
+DEBUG----- START ---- 3.4342999999998938 --- 3.434300000000121
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62020> --- S 3.4343000000000075 --- E 3.4342999999998938 --- 3.4343000000000075
+DEBUG----- 3.4343000000000075 --OUT-- -1 -- COUNT 45 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62340>
+DEBUG----- FXXX ---- 3.434299999999979 --- -2.0872192862952943e-14 --- INTERVAL -2.842170943040401e-14
+DEBUG----- START ---- 3.4343000000000075 --- 3.4342999999998938
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62340> --- S 3.434299999999979 --- E 3.4343000000000075 --- 3.434299999999979
+DEBUG----- 3.434299999999979 --OUT-- 1 -- COUNT 46 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104bd6ca0>
+DEBUG----- SIGN CHECK False ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62020>
+DEBUG----- FXXX ---- 3.4342999999999932 --- -6.661338147750939e-15 --- INTERVAL 1.4210854715202004e-14
+DEBUG----- START ---- 3.434299999999979 --- 3.4343000000000075
+DEBUG----- 3.4342999999999932 --- 1  ---- True
+DEBUG----- OUT START ---- 3.434299999999979 --- 3.4343000000000075
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62020>
+DEBUG----- FXXX ---- 3.4343000000000075 --- 7.549516567451064e-15 --- INTERVAL 1.4210854715202004e-14
+DEBUG----- START ---- 3.434299999999979 --- 3.4343000000000075
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62020> --- S 3.4343000000000075 --- E 3.434299999999979 --- 3.4343000000000075
+DEBUG----- 3.4343000000000075 --OUT-- -1 -- COUNT 47 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK False ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62480>
+DEBUG----- FXXX ---- 3.4343000000000004 --- 4.440892098500626e-16 --- INTERVAL -7.105427357601002e-15
+DEBUG----- START ---- 3.4343000000000075 --- 3.434299999999979
+DEBUG----- 3.4343000000000004 --- -1  ---- True
+DEBUG----- OUT START ---- 3.4343000000000075 --- 3.434299999999979
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62480>
+DEBUG----- FXXX ---- 3.4342999999999932 --- -6.661338147750939e-15 --- INTERVAL -7.105427357601002e-15
+DEBUG----- START ---- 3.4343000000000075 --- 3.434299999999979
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c62480> --- S 3.4342999999999932 --- E 3.4343000000000075 --- 3.4342999999999932
+DEBUG----- 3.4342999999999932 --OUT-- 1 -- COUNT 48 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104c62340>
+DEBUG----- SIGN CHECK False ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62020>
+DEBUG----- FXXX ---- 3.434299999999997 --- -3.1086244689504383e-15 --- INTERVAL 3.552713678800501e-15
+DEBUG----- START ---- 3.4342999999999932 --- 3.4343000000000075
+DEBUG----- 3.434299999999997 --- 1  ---- True
+DEBUG----- OUT START ---- 3.4342999999999932 --- 3.4343000000000075
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62020>
+DEBUG----- FXXX ---- 3.4343000000000004 --- 4.440892098500626e-16 --- INTERVAL 3.552713678800501e-15
+DEBUG----- START ---- 3.4342999999999932 --- 3.4343000000000075
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62020> --- S 3.4343000000000004 --- E 3.4342999999999932 --- 3.4343000000000004
+DEBUG----- 3.4343000000000004 --OUT-- -1 -- COUNT 49 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c623e0>
+DEBUG----- FXXX ---- 3.4342999999999986 --- -1.3322676295501878e-15 --- INTERVAL -1.7763568394002505e-15
+DEBUG----- START ---- 3.4343000000000004 --- 3.4342999999999932
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c623e0> --- S 3.4342999999999986 --- E 3.4343000000000004 --- 3.4342999999999986
+DEBUG----- 3.4342999999999986 --OUT-- 1 -- COUNT 50 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionFront at 0x104bd6de0>
+DEBUG----- SIGN CHECK False ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62340>
+DEBUG----- FXXX ---- 3.4342999999999995 --- -4.440892098500626e-16 --- INTERVAL 8.881784197001252e-16
+DEBUG----- START ---- 3.4342999999999986 --- 3.4343000000000004
+DEBUG----- 3.4342999999999995 --- 1  ---- True
+DEBUG----- OUT START ---- 3.4342999999999986 --- 3.4343000000000004
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62340>
+DEBUG----- FXXX ---- 3.4343000000000004 --- 4.440892098500626e-16 --- INTERVAL 8.881784197001252e-16
+DEBUG----- START ---- 3.4342999999999986 --- 3.4343000000000004
+
+
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckFront at 0x104c62340> --- S 3.4343000000000004 --- E 3.4342999999999986 --- 3.4343000000000004
+DEBUG----- 3.4343000000000004 --OUT-- -1 -- COUNT 51 --- CONDITION = True --- RAW <function SignChangeScanner.<locals>.conditionBack at 0x104c62520>
+DEBUG----- SIGN CHECK True ---- <function SignChangeScanner.<locals>.SignCheckBack at 0x104c625c0>
+DEBUG----- FXXX ---- 3.4343 --- 0.0 --- INTERVAL -4.440892098500626e-16
+DEBUG----- START ---- 3.4343000000000004 --- 3.4342999999999986
+DEBUG----- SIGN CHECK PASSED: <function SignChangeScanner.<locals>.SignCheckBack at 0x104c625c0> --- S 3.4343 --- E 3.4343000000000004 --- 3.4343
+DEBUG----- YAYAYAYAY
+(venvironment) \W $
