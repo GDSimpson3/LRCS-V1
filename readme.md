@@ -72,3 +72,14 @@ Custom Logging module, Clears all logs when environment is set to Prod (`ENVIRON
 ## Custom Error Handler [UTIL]
 
 Custom Error handling module
+
+## Custom Time Sleeper [UTIL]
+
+Custom Time handling module, Dissables in Prod (`ENVIRONMENT != 'DEV'`)
+
+<h1 align='right'>Credits</h1>
+I got a few gray hairs thanks to this.... this honestly was much more twisty than I thought it would be. You had to be IN the state for it. You couldn't just clear your mind and come back.. no no no нетттт. It was like starting from scratch.....
+
+But I'd be lying if I said that this wasn't enjoyable.
+
+Collaborators: @gdsimpson3, @gdsimpson3 and @gdsimpson3

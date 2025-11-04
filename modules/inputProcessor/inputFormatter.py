@@ -1,6 +1,6 @@
 import re
 
-from modules.logger.logger import LOG
+from modules.utils.logger.logger import LOG
 
 
 def _ExtractTermsO(ExtractionStr: str) -> list[str]:
