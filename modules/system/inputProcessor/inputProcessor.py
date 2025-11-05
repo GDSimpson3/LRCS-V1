@@ -1,5 +1,5 @@
 from config import ENVIRONMENT
-from modules.inputProcessor.inputFormatter import InputFormatter
+from modules.system.inputProcessor.inputFormatter import InputFormatter
 
 
 def InputProcessorMain(Message) -> list[list[str]]:

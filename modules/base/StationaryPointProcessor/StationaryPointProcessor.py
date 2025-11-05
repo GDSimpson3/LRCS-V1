@@ -1,4 +1,4 @@
-from modules.computeFX.FX import FX
+from modules.functional.computeFX.FX import FX
 
 
 

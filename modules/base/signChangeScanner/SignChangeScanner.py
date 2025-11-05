@@ -1,5 +1,4 @@
-from typing import Union
-from modules.computeFX.FX import FX
+from modules.functional.computeFX.FX import FX
 from modules.utils.error.error import BadInput
 from modules.utils.logger.logger import LOG
 from modules.utils.sleeper.sleep import SleepFor
