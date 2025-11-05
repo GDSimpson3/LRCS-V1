@@ -1,6 +1,9 @@
 def BadInput(msg:str):
     raise ValueError(f'INTERNAL ERROR: {msg}')
 
+def RootError(msg:str):
+    raise ValueError(f'INTERNAL ERROR WHILST PROCESSING ROOT: {msg}')
+
 
 
 
