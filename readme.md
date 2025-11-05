@@ -65,6 +65,14 @@ There were some technical difficulties with this a python's default Range does n
 
 Conditions were dynamic and switched in ascending powers of `(-1)` to change direction everytime the root was passed. Increments were `2^(-incrementCount)`, this allowed increments to become smaller and smaller and acurately reach the root
 
+## Stationary Point Processor
+
+I: `Polynomial: list[list[str]], stationaryPoints: list[int]`
+
+O: `StationaryPointRoots: list[list[int]]`
+
+It takes in an array of stationary points that are sorted in ascending order. It first checks if any points themselves are roots, those startionary points are considered seperately. Next it loops through the array and it compares each point with the one in front. If a sign change (of FX) is detected, there's a root between them and it's saved.
+
 ## Logger [UTIL]
 
 Custom Logging module, Clears all logs when environment is set to Prod (`ENVIRONMENT != 'DEV'`)
