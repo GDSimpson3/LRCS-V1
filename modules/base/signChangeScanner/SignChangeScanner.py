@@ -16,7 +16,7 @@ def SignChangeScanner(StartingPoint:float, EndFlag:float, PolyNomial: list[list[
     max_iterations = 1000
     # interval = 2 ** (-1 * iterationCount)
     # direction = (-1) ** (iterationCount)
-
+    counterrr = 0
 
 
     while iterationCount < max_iterations:
@@ -25,6 +25,8 @@ def SignChangeScanner(StartingPoint:float, EndFlag:float, PolyNomial: list[list[
 
         Additionally re define them each outer while loop
         '''
+        counterrr += 1
+        
         def conditionFront(): return Root < End
         def conditionBack(): return Root > End
         def SignCheckFront(): return RootSign() != StartSign()
