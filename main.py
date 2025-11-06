@@ -22,5 +22,5 @@ Polynomial = InputProcessorMain("Please Enter the Polynomial: ")
 
 # LOG(RootFinder([['2', 3],['2', 2], ['-5', 1], ['2', 0]],4))
 # LOG(RootFinder([['1', 3],['-2', 2], ['-5', 1], ['6', 0]],4))
-# LOG(RootFinder([['1', 4],['-2', 3], ['-5',2], ['6', 1]],4))
-print('And your Root ISSSSSSSSSS: \n',RootFinder(Polynomial,4))
+LOG(RootFinder([['1', 4],['-2', 3], ['-5',2], ['6', 1]],4))
+# print('And your Root ISSSSSSSSSS: \n',RootFinder(Polynomial,4))
