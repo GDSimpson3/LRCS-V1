@@ -6,16 +6,19 @@ from modules.utils.logger.logger import LOG
 
 
 def RootFinder(polynomial: list[list[str]],dpAcuraccy:int):
+
+
+    LOG(f"{'-'*20} ,'FOR POLY', {polynomial}")
     derivative : list[list[str]] = Differentiate(polynomial)
 
-    LOG(derivative)
+    LOG(f'RECURSIONNNNN --- {derivative} OF - {polynomial}')
     StationaryPoints : list[int] = FindStationaryPoints(derivative,dpAcuraccy)
 
-    LOG(StationaryPoints)
+    LOG(f"STAT POOINTSSS {StationaryPoints} - {derivative}")
     roots :list[int] = []
     StationaryPointRoots, StationaryPointRootPairs = StationaryPointProcessor(polynomial,StationaryPoints)
 
-    LOG(f'ROOT PAIRS --- {StationaryPointRootPairs}')
+    LOG(f'ROOT PAIRS --- {StationaryPointRootPairs} ---- {polynomial}')
     for Pair in StationaryPointRootPairs:
         roots.append(SignChangeScanner(Pair[0],Pair[1],polynomial,dpAcuraccy))
 
@@ -27,7 +30,7 @@ def RootFinder(polynomial: list[list[str]],dpAcuraccy:int):
 
     # Edge roots
 
-    sortedStatPoints = sorted(StationaryPoints)
+    # sortedStatPoints = sorted(StationaryPoints)
 
     # LOG(sortedStatPoints[0])
     # LOG(sortedStatPoints[-1])
@@ -37,8 +40,7 @@ def RootFinder(polynomial: list[list[str]],dpAcuraccy:int):
 
 
 
-    sortedRoots = sorted(roots)
 
     
 
-    return sortedRoots
+    return roots
