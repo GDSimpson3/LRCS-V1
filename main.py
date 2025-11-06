@@ -20,4 +20,5 @@ Polynomial = InputProcessorMain("Please Enter the Polynomial: ")
 
 # LOG(SignChangeScanner(0,10,[['1','1'],['-3.4343','0']],5))
 
-LOG(RootFinder(Polynomial))
+# LOG(RootFinder([['2', 3],['2', 2], ['-5', 1], ['2', 0]],4))
+LOG(RootFinder([['1', 3],['-2', 2], ['-5', 1], ['6', 0]],4))

@@ -18,7 +18,7 @@ def Quadratic(Polynomial: list[list[str]]) -> list[int]:
     PositiveRoot = ( (-b) + DiscriminantSQRT ) / (2*a)
     NegativeRoot = ( (-b) - DiscriminantSQRT ) / (2*a)
 
-    return [PositiveRoot,NegativeRoot]
+    return PositiveRoot,NegativeRoot
 
 
 
