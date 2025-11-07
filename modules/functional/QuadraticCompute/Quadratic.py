@@ -11,7 +11,7 @@ def Quadratic(Polynomial: list[list[str]]) -> list[int]:
     Discriminant = (b**2) - (4 * a * c)
 
     if not Discriminant >= 0:
-        RootError(f"Quadratic Root {Polynomial} Has a negative Disciminant")
+        RootError(f"Quadratic Root {Polynomial} Has a negative Disciminant - COMPLEX ROOTS")
     
     DiscriminantSQRT = math.sqrt(Discriminant)
 
